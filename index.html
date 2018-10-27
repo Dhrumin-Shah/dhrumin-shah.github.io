@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+	<title>Dhrumin Shah</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href="style.css" type="text/css" rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body class="blue-grey darken-4">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $( document ).ready(function() {
+      $('.modal').modal();
+});
+</script>
+<div style="width: 100%; padding: 10%;">
+	<h1 class="center-align white-text">Dhrumin Shah</h1>
+	<div class="social" style="display: flex; justify-content: center; align-content: center;">
+ 		<a href="https://www.instagram.com/dhrumin.shah/" target="_blank"><img src="instagram.png"></a>
+ 		<a href="https://twitter.com/DhruminShah_" target="_blank"><img src="twitter.png"></a>
+ 		<a class="modal-trigger" href="#snapModal"><img src="snapchat.png"></a>
+ 		<a href="https://github.com/Dhrumin-Shah" target="_blank"><img src="github.png"></a>
+	</div>
+<div id="snapModal" class="modal">
+    <div class="modal-content center-align blue-grey darken-3">
+    	<img src="snapcodeBitmoji.svg" style="height: 25vh; width:auto;">
+    </div>
+</div>
+<div class="section">
+	<h3 class="center-align white-text">Projects</h3>
+</div>
+
 </body>
 </html>
